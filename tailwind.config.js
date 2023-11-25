@@ -60,11 +60,12 @@ module.exports = {
 						opacity: "0%",
 					},
 
-					"30%": {
+					"50%": {
 						transform: "translateX(0%)",
 						opacity: "100%",
 					},
 					"100%": {
+						transform: "translateX(-100%)",
 						opacity: "0%",
 					},
 				},
@@ -74,22 +75,23 @@ module.exports = {
 						opacity: "0%",
 					},
 
-					"30%": {
+					"50%": {
 						transform: "translateX(0%)",
 						opacity: "100%",
 					},
 					"100%": {
+						transform: "translateX(100%)",
 						opacity: "0%",
 					},
 				},
 				title: {
 					"0%": {
-						"line-height": "0%",
+						// "line-height": "0%",
 						"letter-spacing": "0.25em",
 						opacity: "0",
 					},
 					"25%": {
-						"line-height": "0%",
+						// "line-height": "0%",
 						opacity: "0%",
 					},
 					"80%": {
@@ -97,7 +99,7 @@ module.exports = {
 					},
 
 					"100%": {
-						"line-height": "100%",
+						// "line-height": "100%",
 						opacity: "100%",
 					},
 				},
